@@ -1,4 +1,7 @@
+
+
 #menu{
+    color: aliceblue;
     display: flex;
     justify-content: center;
     margin: 0;
@@ -8,17 +11,32 @@
     top: 0;
     width: 100%;
     position: fixed;
+    background-color: rgb(255, 147, 125);
+}
 
-}
-nav li{
-    float: left;
+.navbar-1{
+    float: center;
     text-align: center;
-    padding: 14px 16px;
+    padding: 16px;
+    color: none;
+    background-color:rgb(136, 5, 5) ;
 }
+
 body{
     background-color:bisque;
 }
+
 #fotocartera{
-    width: 90%;
+    width: 600px;
+    height: 300px;
 }
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: right;
+  }
+  .container{
+    display: flex;
+  }
+
+  
 
