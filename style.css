@@ -27,7 +27,7 @@ body{
 }
 
 #fotocartera{
-    width: 600px;
+    width: 300px;
     height: 300px;
 }
 h1 {
@@ -37,6 +37,13 @@ h1 {
   .container{
     display: flex;
   }
+.background-colour{
+    background-color: black;
+}
+footer{
+    background-color: rgb(104, 37, 137);
+    color: wheat;
+    margin-top: 5px;
 
-  
+}
 

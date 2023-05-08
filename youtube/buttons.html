@@ -3,11 +3,25 @@
         background-color: rgba(200, 0, 0);
         color: white;
         border: none;
-        height: 35px;
-        width: 105px;
+        /* height: 35px;
+        width: 105px; */
+        padding-top: 10px;
+        padding-bottom: 10px;
         border-radius: 2px;
+        padding-left: 16px;
+        padding-right: 16px;
         cursor: pointer;
         margin-right: 8px;
+        transition: opacity 0.15s;
+        vertical-align: top;
+    }
+    .susbscribe_butoon:hover{/* :hover es que cuando pongamos el cursor sobre el boton */
+        opacity: 0.8;
+    }
+
+    .susbscribe_butoon:active{    /* :active es para cuando le damos click */
+        opacity: 0.5;
+
     }
     .join-button {
         background-color: white;
@@ -15,11 +29,25 @@
         border-style: solid;
         border-width: 1px;
         color:rgb(41, 118, 211);
-        height: 36px;
-        width: 62px;
+        /* height: 36px;
+        width: 62px; */
+        padding-left: 16px;
+        padding-top: 9px ;
         border-radius: 2px;
+        padding-bottom: 9px;
+        padding-right: 16px;
         cursor: pointer;
+        transition: background-color 0.25s,
+            color 0.25s;
+        vertical-align: top;
 
+    }
+    .join-button:hover{
+        background-color:  rgb(41, 118, 211) ;
+        color:white ;
+    }
+    .join-button:active{
+        opacity: 0.7;
     }
     .tweet-button{
         background-color: rgb(75, 189, 255);
@@ -32,6 +60,35 @@
         font-size: 15px;
         cursor: pointer;
         margin-left: 8px;
+        transition: box-shadow 0.2s;
+        vertical-align: top;
+
+    }
+    .tweet-button:hover{
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25);
+
+    }
+    .amazon-button{
+        background-color: rgb(250, 209, 6);
+        color: black;
+        border: none;
+        height: 28px;
+        width: 120px;
+        border-radius: 12px;
+        font-size: 11px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: background-color 0.2s;
+        transition: opacity 0.2s;
+        vertical-align: middle;
+
+
+    }
+    .amazon-button:hover{
+        background-color: rgb(255, 187, 0);
+    }
+    .amazon-button:active{
+        opacity: 0.7;
     }
 
 </style>
@@ -42,10 +99,14 @@
     </button>
 
     <button class="join-button">
-      JOIN
+      JOIN 
     </button>
 
     <button class="tweet-button">
         Tweet
+    </button>
+
+    <button class="amazon-button">
+        Add to Cart
     </button>
 </body>
